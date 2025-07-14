@@ -1,0 +1,1 @@
+export default function PendingAppointmentsPage() { return <div>Pending Appointments Page (Coming soon)</div>; } 

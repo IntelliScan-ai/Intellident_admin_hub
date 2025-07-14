@@ -1,0 +1,1 @@
+export default function ScansPage() { return <div>Scans Page (Coming soon)</div>; } 

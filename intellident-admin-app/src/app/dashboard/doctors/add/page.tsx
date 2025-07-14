@@ -1,0 +1,1 @@
+export default function AddDoctorPage() { return <div>Add Doctor Page (Coming soon)</div>; } 

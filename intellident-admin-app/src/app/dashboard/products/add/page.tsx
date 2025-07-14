@@ -1,0 +1,1 @@
+export default function AddProductPage() { return <div>Create Product Page (Coming soon)</div>; } 
