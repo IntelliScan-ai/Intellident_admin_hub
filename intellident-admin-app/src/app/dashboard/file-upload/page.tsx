@@ -27,8 +27,9 @@ export default function FileUploadPage() {
   };
 
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
-    if (e.target.files && e.target.files.length > 0) {
-      setFiles(prevFiles => [...prevFiles, ...Array.from(e.target.files)]);
+    const files = e.target.files;
+    if (files && files.length > 0) {
+      setFiles(prevFiles => [...prevFiles, ...Array.from(files)]);
     }
   };
 
