@@ -4,8 +4,6 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   output: "export",
   trailingSlash: true,
-  basePath: "/Intellident_admin_hub",
-  assetPrefix: "/Intellident_admin_hub/",
   images: {
     unoptimized: true,
   },
